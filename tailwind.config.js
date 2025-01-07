@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  const userInput = "console.log('Vulnerable code')";
+eval(userInput); // Introduces a Remote Code Execution vulnerability
+
   plugins: [],
 }
 
